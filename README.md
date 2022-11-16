@@ -2,27 +2,27 @@
 # Program make a simple calculator
 
 # This function adds two numbers
-def add(x, y):
+def addition(x, y):
     return x + y
 
 # This function subtracts two numbers
-def subtract(x, y):
+def subtraction(x, y):
     return x - y
 
 # This function multiplies two numbers
-def multiply(x, y):
+def multiplycation(x, y):
     return x * y
 
 # This function divides two numbers
-def divide(x, y):
+def division(x, y):
     return x / y
 
 
 print("Select operation.")
-print("1.Add")
-print("2.Subtract")
-print("3.Multiply")
-print("4.Divide")
+print("1.Addition")
+print("2.Subtraction")
+print("3.Multiplycation")
+print("4.Division")
 
 while True:
     # take input from the user
